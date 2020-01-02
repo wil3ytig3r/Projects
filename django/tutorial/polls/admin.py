@@ -6,3 +6,4 @@ from .models import Question
 
 admin.site.register(Question)
 
+#https://docs.djangoproject.com/en/3.0/intro/tutorial03/
