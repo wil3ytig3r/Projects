@@ -5,13 +5,3 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Product.delete_all 
-
-Product.create!(title: 'Seven Mobile Apps in Seven Weeks',
-	description: 
-	%{<p>
-		<em>Native Apps</em>
-		Bippity boppity boo.
-	</p>},
-	image_url: '7apps.jpg',
-	price: 26.00)
